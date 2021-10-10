@@ -1,6 +1,5 @@
 image_speed=0;
-planet_choice = round(random_range(0,1));
-image_index = planet_choice;
+image_index = floor(random(sprite_get_number(sprite_index)));
 planet_scale = round(random_range(3,7));
 image_xscale=planet_scale;
 image_yscale=planet_scale;

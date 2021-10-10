@@ -26,11 +26,13 @@ if keyboard_check(ord("E")) and bulletCooldown < 1 {
 bulletCooldown=bulletCooldown-1;
 	
 // Other
+/*
 if keyboard_check_pressed(ord("R")) {
 	enemy_created_y = random_range(0,600)
 	enemy_created_x = random_range(1000,1250)
 	instance_create_layer(enemy_created_x,enemy_created_y,"Instances",obj_planet)
 };
+*/
 if spriteOld=true {
 	sprite_index = spr_player_old;
 };
