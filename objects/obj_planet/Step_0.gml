@@ -4,7 +4,7 @@ if planet_scale > 5 {
 	planetspeed = 2;
 } else planetspeed = 4;
 if x < 0 {
-	instance_create_layer(448,288,"Instances",obj_lose);
+	instance_create_layer(512,32,"Instances",obj_lose);
 	instance_destroy();
 };
 if planethealth=0 {

@@ -1,1 +1,1 @@
-instance_create_layer(448,288,"Instances",obj_lose);
+instance_create_layer(512,32,"Instances",obj_lose);
